@@ -13,6 +13,6 @@ From the project root, remove the README, move the .gitignore up one level, and 
 $ rm Assets/README.md
 $ mv Assets/.gitignore ./
 $ git init
-$ git add Assets ProjectSettings Packages .gitignore README.md
+$ git add Assets ProjectSettings Packages .gitignore
 $ git commit -m "initial setup"
 ```
