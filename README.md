@@ -1,6 +1,6 @@
 Well-structured Unity project template.
 
-Begin by starting a new Unity project and empty out the Assets directory. Clone the repository into the Assets directory and remove all git references:
+Begin by starting a new Unity project and emptying out the Assets directory. Clone the repository into the Assets directory and remove all git references:
 
 ```
 $ git clone https://github.com/nizsanli/unity_template.git .
