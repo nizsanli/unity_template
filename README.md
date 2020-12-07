@@ -1,18 +1,23 @@
 Well-structured Unity project template.
 
-Begin by starting a new Unity project and emptying out the Assets directory. Clone the repository into the Assets directory and remove all git references:
+Begin by creating a new Unity project and emptying the Assets directory. From the empty Assets directory, clone the repository and remove all git references:
 
 ```
 $ git clone https://github.com/nizsanli/unity_template.git .
 $ rm -rf .git
 ```
 
-From the project root, remove the README, move the .gitignore up one level, and begin tracking the project:
+Remove the README and move the .gitignore up one level:
 
 ```
-$ rm Assets/README.md
-$ mv Assets/.gitignore ./
+$ rm README.md
+$ mv .gitignore ./
+```
+
+Begin tracking the project from the root:
+
+```
 $ git init
-$ git add Assets ProjectSettings Packages .gitignore
+$ git add Assets Packages ProjectSettings .gitignore
 $ git commit -m "initial setup"
 ```
